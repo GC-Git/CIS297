@@ -1,6 +1,6 @@
 # Lesson 1: 4/18/2018
 
-#### Problem to be solved:
+### Problem to be solved:
 
 ---
 
@@ -14,7 +14,7 @@ This puts extreme power in the hands of those that control our data. Notably, la
 
 
 
-#### Solution to the problem:
+### Solution to the problem:
 
 ---
 
@@ -30,7 +30,7 @@ When social networks are smaller, they become more isolated from outside influen
 
 
 
-#### Solution Deliverables:
+### Solution Deliverables:
 
 ---
 

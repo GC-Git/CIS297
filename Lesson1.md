@@ -1,4 +1,4 @@
-# Lesson 1: 4/18/2018
+# Lesson 1 - 4/18/2018 - Project Concept
 
 ### Problem to be solved:
 

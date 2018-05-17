@@ -35,7 +35,7 @@ Note:
 ## NodeJS
 A server-side JavaScript runtime environment.
 Note:
-Has access to the file system and other system functions much like any other programming language.
+- Has access to the file system and other system functions much like any other programming language.
 
 +++
 ### Server
@@ -59,9 +59,6 @@ Note:
 +++
 
 ``` json
-npm init --yes
-Wrote to /home/ag_dubs/my_package/package.json:
-
 {
   "name": "my_package",
   "description": "A fake project",
@@ -77,9 +74,6 @@ Wrote to /home/ag_dubs/my_package/package.json:
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashleygwilliams/my_package/issues"
-  },
   "homepage": "https://github.com/ashleygwilliams/my_package"
 }
 ```
@@ -94,8 +88,11 @@ Note:
 
 +++
 As simple as
-``git push heroku master``
+``` console
+git push heroku master
+```
 Note:
+
 - It forces you to use version control. You push your git repo to Heroku to 'start the server'
 
 ---
@@ -104,6 +101,7 @@ Relational Database
 
 +++
 ### Interfaced with Sequelize
+No SQL. Just JavaScript.
 Note:
 - We interface with the database using the Sequelize node package.
 - Sequelize is an ORM.
@@ -117,11 +115,13 @@ Note:
 
 +++
 ### Middleware
+``` javascript
 app.use(myMiddleware)
+```
 Note:
 - Middleware is just a function that takes the request  and response, and runs it through code to modify, validate, etc. It then goes on to the next middleware
 
-+++ 
++++
 ### Routes
 ``` javascript
 app.get('/', someFunction(req,res))
@@ -145,7 +145,7 @@ Note:
 - They are passed an object with variables to build the page, like a list of users
 - Default is the PUG templating language, but you can use whatever you want. React, vue, etc all work.
 
-+++ 
++++
 ### Pug Templates
 ``` pug
 html  

@@ -32,8 +32,8 @@ This is the expected timetable to completion of this project, which should be co
 #### Week 2 - 5/3
 ---
 - [ ] Implement password hasing and salting
-- [ ] Flesh out database structure
-- [ ] Implement database via Sequelize (JS library)
+- [x] Flesh out database structure
+- [x] Implement database via Sequelize (JS library)
 
 #### Week 3 - 5/10
 ---

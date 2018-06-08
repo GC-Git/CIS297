@@ -57,7 +57,7 @@ Note:
 - NPM allows you to isolate all requirements to the project folder. Allows easy passing of dependencies to other systems with package.json
 
 +++
-
+An example of a `package.json` file:
 ``` json
 {
   "name": "my_package",
@@ -124,11 +124,11 @@ Note:
 +++
 ### Routes
 ``` javascript
-app.get('/', someFunction(req,res))
-	.post('/', someOtherFunction(req,res))
+app.get('/', controllerName.someFunction(req,res))
+	.post('/', controllerName.someOtherFunction(req,res))
 ```
 Note:
-- Your endpoints are the functions. 
+- Your endpoints are the functions ( `someFunction()` ) in the appropriate controller 
 - Sometimes you'll serve an API
 - Othertimes you'll serve a front end view
 
@@ -161,4 +161,5 @@ html
 ```
 Note:
 - Can easily use the passed in variables
-- Seperate different objects like header, footer, nav
+- Separate different objects like header, footer, nav
+- Can be divided with templates, includes, and mixins
